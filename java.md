@@ -1,0 +1,2 @@
+Class identifiers conventionally start with Upper Case letter and follow the camel casing convention, that is, each subsequent word's first letter is capitalized.
+Ex: SomeValidIdentifiers, $value, $Identifier, 
