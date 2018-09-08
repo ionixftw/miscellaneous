@@ -1,10 +1,10 @@
 public class VerticalGraph {
+    static int[] index, index2;
     public static void main(String[] args) {
         int[] data = {1,9,3,7,5,4};
-        int[] index = new int[data.length];
-        for ( int i = 0; i < index.length; i++) {
-            index[i] = i + 1;
-        }
+        int[] data2 = {3,5,9,2,1,6,3,9,0,3,5,6};
+        initializeIndex(data, index);
+        initializeIndex(data2, index2);
         System.out.println("The Original Data:");
         displayGraph(data, index);
         sortArrayWithIndex(data, index, true);
@@ -74,6 +74,13 @@ public class VerticalGraph {
                     }
                 }
             }
+        }
+        
+    }
+    public static void initializeIndex( int[] data, int[] index) {
+        index = new int[data.length];
+        for ( int i = 0; i < index.length; i++) {
+            index[i] = i + 1;
         }
     }
 }
