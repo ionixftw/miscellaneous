@@ -2,21 +2,20 @@
 import java.util.Scanner;
 public class GradeAnalysis{
     public static void main ( String[] args ) {
+        Scanner scanner = new Scanner ( System.in );
         // initialize variables
         int pass = 0;
-        int fail = 0
+        int fail = 0;
         int students = 10;
         // input 10 students marks and perform assignments
         for ( int counter = 1; counter <= 10; counter++ ) {
-            Scanner scanner = new Scanner ( System.in );
             // prompt
             System.out.println("Enter marks ( 1 == pass) (2 == fail)");
             int mark = scanner.nextInt();
             if ( mark == 1)
                 pass++;
             else
-                fail++;
-            
+                fail++;   
         }
         // print total pass and fail
         System.out.println( " Total Passed: " + pass);
