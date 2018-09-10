@@ -1,0 +1,6 @@
+{
+    "extensions.ignoreRecommendations": false,
+    "editor.fontFamily": "'Source Code Pro','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 18,
+    "workbench.colorTheme": "Monokai"
+}
